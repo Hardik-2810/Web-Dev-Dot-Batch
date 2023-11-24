@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            /* Gives boder to  each and every individual tr,td,th and to the complete table */
+            border: 1px solid black;
+            /* Boder collapse is writtem beacuse the above border gives 
+            border to each and evry element and then it doesnt look like 
+            a table at all */
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Tables -->
+
+    <!-- table tag -->
+    <table>
+        <!-- It is a good practice to dive the table into thead, tbody 
+                 and tfoot -->
+        <!-- it is a good practice to keep all your first row which is 
+            bascially kind of heading of the table inside thead tag -->
+        <!-- table head -->
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+
+        </thead>
+        <!-- table body -->
+        <tbody>
+            <!-- tr = table row -->
+            <tr>
+                <!-- td = table data -->
+                <td>Jan</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Mar</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Apr</td>
+                <td>400</td>
+            </tr>
+        </tbody>
+        <!-- table footer -->
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>

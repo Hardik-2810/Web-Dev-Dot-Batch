@@ -1,0 +1,19 @@
+Homework CSS Lecture 1 
+
+Selectors
+1. Universal Selector ✅
+2. Nested Selector ✅
+3. Attribute Selector ✅
+
+4.Font: 
+Font family ✅
+Font Weight ✅
+Font Style ✅
+Empahsis and Importance ✅
+how to add External Font ✅
+
+5. Play Around with CSS on the Tribute Page ✅
+6. Create that Card of Codehelp ✅
+
+7. 1% vs 1vw ✅
+

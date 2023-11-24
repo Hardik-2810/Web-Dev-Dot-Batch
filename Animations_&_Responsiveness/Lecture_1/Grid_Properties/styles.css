@@ -1,0 +1,74 @@
+/* 
+
+GRID PROPERTIES
+    justify-content
+    align-items
+    
+    align-content 
+    justify-items
+
+
+CHILD PROPERTIES
+    justify-self
+    align-self
+
+
+ */
+.container {
+    height: 700px;
+    width: 600px;
+    background-color: yellow;
+    border: 1px solid brown;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+
+    /* grid-gap: 10px; */
+
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+
+
+    /* align-items: start;
+    align-items: end;
+    align-items: center;
+    align-items: baseline;
+    align-items: stretch;
+    align-items: space-around; */
+
+
+
+    /* align-content: center; */
+
+    /* justify-items: center; */
+
+
+    /* while refering to items we change the width and height of the boxes  */
+    /* while refering to content we just move the boxes around and do not chnage its width or height */
+}
+
+.box {
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+#box1 {
+
+    /*works along Horizontal axis */
+    /* 
+        justify-self: end;
+        justify-self: center; 
+    */
+    justify-self: start;
+
+    /* works along Vertical axis */
+    /* align-self: center; */
+
+}

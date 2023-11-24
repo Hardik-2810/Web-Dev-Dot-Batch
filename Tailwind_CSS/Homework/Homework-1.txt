@@ -1,0 +1,3 @@
+Homework Tailwind css lecture 1
+
+Make the nav bar which is made using tailwind css in class as only css  

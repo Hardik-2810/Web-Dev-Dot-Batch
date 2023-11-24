@@ -1,0 +1,9 @@
+Homework CSS Lecture 4 
+
+img tag vs background-img porperty
+Play around with position property 
+
+
+CSS Grids
+Grid Row 
+Grid Column

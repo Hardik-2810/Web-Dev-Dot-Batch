@@ -1,0 +1,18 @@
+Homework
+1. How to reduce the background colour only till thew text 
+
+2. Read documentation mdn for the following tags 
+    Blockquote
+    q
+    cite
+    address
+    abbreviation
+
+3. How to add favicon
+
+4. Create that homework wala website ✅
+
+5. Create that table (Not completely done but almost done)✅
+
+6. Create that form that was given in Homework ✅
+

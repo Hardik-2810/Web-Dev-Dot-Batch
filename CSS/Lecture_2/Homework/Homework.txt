@@ -1,0 +1,5 @@
+Homework CSS Lecture 2
+1) Explore Conical Graident ✅
+2) How can we add Border using shadows ✅
+3) Read About Spread radius in Box shadow ✅
+4) why is perspective not needed while using 3d roation in z axis

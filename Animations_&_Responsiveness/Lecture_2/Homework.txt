@@ -1,0 +1,4 @@
+Homework Lecture 2
+1) declaring varible in root element vs declaring varible in universal selector 
+2) Hire me Button assignment 
+3) 10 CSS Animated Button

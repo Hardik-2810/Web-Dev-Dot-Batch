@@ -1,0 +1,12 @@
+Homework Lecture 4 HTML
+
+1. header vs h1 tag (interviewer be like: aren't these both the same)
+2. can you use header tag in footer tag
+3. Can you use multiple header tag in one html document 
+4. try centering the aside element content in the center of the page
+5. Body tag vs Main tag
+6. Make DOM of Linus bhaiya ko tribute wala page 
+7.Html Quiz and Html Debugging Excercises
+
+
+ 

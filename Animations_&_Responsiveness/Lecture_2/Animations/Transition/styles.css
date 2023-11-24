@@ -1,0 +1,54 @@
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box {
+    border: 2px solid orange;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+
+    /* transition: 1s; */
+
+    /* 
+        Transition short hand property
+        Transition: (property) (duration) (transition-timing-function) (delay)
+    
+        Duration vs Delay 
+
+        Duration is the amount of time it takes to go from one css property to another 
+        for eg: it takes 1 sec to go from colour aqua to brown 
+
+        Delay is the amount of time after which the transition will begin to take place 
+    */
+
+    /* transition: background-color 1s ease; */
+    /* transition: transfrom 5s ease 1s; */
+
+    /* transition: transform 3s ease-out; */
+
+
+
+    /* Custom trasition timing function  */
+    /* transition: transform 3s cubic-bezier(1, -0.53, 0.01, 1.83) 1s; */
+
+    /* transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(1, -0.53, 0.01, 1.83);
+    transition-delay: 1s; */
+
+    transition: transform 3s ease 1s;
+
+}
+
+.box:hover {
+    /* background-color: brown;
+    transform: rotate(45deg); */
+
+    transform: scale(2)translateX(500px)rotate(360deg);
+}

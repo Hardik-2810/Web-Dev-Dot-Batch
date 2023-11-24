@@ -1,0 +1,19 @@
+/* Text Shawdow */
+h1 {
+    /* The first 3px is the horizontal distance of the shadow from the orignial text */
+    /* The second 3px is the vertical distance of the shadow from the orignial text*/
+    /* The third 3px is the amount of blurr you want in the shawdow */
+    text-shadow: 3px 3px 3px red;
+    /* text-shadow: 3px 3px 3px red, 30px 30px 3px green; */
+}
+
+/* Box Shadow */
+.box {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    /* Deafult colour of the box shawdow is of the text colour  */
+    box-shadow: 10px 10px 10px;
+    box-shadow: -10px -10px 10px green, 15px 15px 15px brown;
+    color: red;
+}

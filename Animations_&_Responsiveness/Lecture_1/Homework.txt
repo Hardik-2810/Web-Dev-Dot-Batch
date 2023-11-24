@@ -1,0 +1,9 @@
+Homework 
+
+1) Does Grid Auto columns exist ? 
+2) Find the difference between grid and inline grid
+3) Complex Grid layouts
+4) nesting and overlapping of grid items
+5) Create your layout where you use a combination of flex and grid together
+6) Build a BLog Website which is given in homework 
+

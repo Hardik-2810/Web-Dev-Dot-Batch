@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    border: 2px solid green;
+    height: 400px;
+
+    display: flex;
+
+    flex-direction: row;
+    /* 
+        row
+        row-reverse
+        column
+        column-reverse
+    */
+
+    flex-wrap: wrap;
+    /* 
+        wrap 
+        wrap-reverse
+        no wrap
+    */
+
+
+    /* used for Horizontal Alignment  */
+    /* Used to algin content along the main axis (Horizontal) */
+    justify-content: space-around;
+    /* 
+        flex-start
+        flex-end
+        center
+        space-around
+        space-between
+        space-evenly
+    */
+
+
+    /* Used to algin content along the Cross axis (Vertical) */
+    align-items: center;
+
+    /* Used to play around with rows of the content */
+    align-content: flex-start;
+
+    /* gap: 10px; */
+}
+
+.box {
+    border: 1px solid brown;
+    background-color: aqua;
+
+    /* width: 200px; */
+    flex-basis: 50%;
+    /* 
+       Flex basis vs width 
+    */
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+}
+
+
+/* 
+Order
+Flex-Grow
+Flex-Shrink
+Flex Basis
+Align Self
+*/
+
+
+#box1 {
+    order: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+    /* align-self: center; */
+    /* flex-basis: 100px; */
+}
+
+#box2 {
+    order: 5;
+    /* align-self: flex-start; */
+}
+
+#box3 {
+    order: 8;
+    /* flex-shrink: 8; */
+}
